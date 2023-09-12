@@ -4,15 +4,18 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 class UserRegistrationForm(UserCreationForm):
-    full_name = forms.CharField(max_length=200)
+    username = forms.CharField(max_length=200)
     email = forms.EmailField()
 
     class Meta:
         model = User
-        fields = ['full_name', 'email', 'password1', 'password2']
+        fields = ['username', 'email', 'password1', 'password2']
         
     def clean_email(self):
         email = self.cleaned_data.get('email')
         if User.objects.filter(email__iexact=email).exists():
             raise forms.ValidationError('A user has already registered using this email')
         return email
+    
+
+

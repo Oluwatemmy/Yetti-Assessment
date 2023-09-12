@@ -1,10 +1,11 @@
-from django.shortcuts import render, redirect
-from .forms import UserRegistrationForm
-from django.contrib.auth import login
 from django.contrib import messages
+from .forms import UserRegistrationForm
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
+@login_required
 def home(request):
     return render(request, 'users/home.html')
 
@@ -14,9 +15,9 @@ def register(request):
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            fullname = form.cleaned_data.get('full_name')
-            messages.success(request, f"Account created for {fullname}")
-            return redirect('homepage')
+            fullname = form.cleaned_data.get('username')
+            messages.success(request, f"{fullname}, Your account has been created successfully! You can proceed to login.")
+            return redirect('login')
     else:
         form= UserRegistrationForm()
     context = {
