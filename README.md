@@ -48,8 +48,7 @@
                 </ul>
                 </li>
             </ul>
-        </li>  
-        <li><a href="#sample">Sample</a></li>
+        </li>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li> 
     </ol>
@@ -167,3 +166,40 @@ Before you begin, make sure you have the following prerequisites installed on yo
     ```
 
     This command will execute all the tests in the project, including authentication and security tests.
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- License -->
+## License
+
+Distributed under the MIT License. See <a href="https://github.com/Oluwatemmy/Yetti-Assessment/blob/main/LICENSE">LICENSE</a> for more information.
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+---
+
+<!-- Contact -->
+## Contact
+
+Ajayi Oluwaseyi - [@Oluwatemmy15](https://twitter.com/Oluwatemmy15) - oluwaseyitemitope456@gmail.com
+
+Project Link: [Assessment Repo](https://github.com/Oluwatemmy/Yetti-Assessment)
+
+Documentation: [Link-Ease Wiki](https://github.com/Oluwatemmy/Yetti-Assessment/blob/main/README.md)
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+
+<!-- Markdown Links & Images -->
+[contributors-shield]: https://img.shields.io/github/contributors/Oluwatemmy/Yetti-Assessment.svg?style=for-the-badge
+[contributors-url]: https://github.com/Oluwatemmy/Yetti-Assessment/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Oluwatemmy/Yetti-Assessment.svg?style=for-the-badge
+[forks-url]: https://github.com/Oluwatemmy/Yetti-Assessment/network/members
+[stars-shield]: https://img.shields.io/github/stars/Oluwatemmy/Yetti-Assessment.svg?style=for-the-badge
+[stars-url]: https://github.com/Oluwatemmy/Yetti-Assessment/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Oluwatemmy/Yetti-Assessment.svg?style=for-the-badge
+[issues-url]: https://github.com/Oluwatemmy/Yetti-Assessment/issues
+[license-shield]: https://img.shields.io/github/license/Oluwatemmy/Yetti-Assessment.svg?style=for-the-badge
+[license-url]: https://github.com/Oluwatemmy/Yetti-Assessment/blob/main/LICENSE.txt
+[twitter-shield]: https://img.shields.io/badge/-@Oluwatemmy15-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/Oluwatemmy15
+[twitter-url]: https://twitter.com/Oluwatemmy15
