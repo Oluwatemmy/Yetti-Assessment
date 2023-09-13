@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
-@login_required
+@login_required # Users must be authenticated to view the homepage just as requested
 def home(request):
     return render(request, 'users/home.html')
 
@@ -22,5 +22,6 @@ def register(request):
         form= UserRegistrationForm()
     context = {
         'form': form,
+        'title': 'Register'
     }
     return render(request, 'users/register.html', context)
