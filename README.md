@@ -94,15 +94,15 @@ To maintaining code quality and ensuring the security of the authentication syst
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ### Built With:
--**Django**
--**Python**
--**HTML, CSS**
--**SQLITE3**
--**Django's Testing Framework**
--**Git**
--**Github**
--**Virtual Environment**
--**Markdown**
+* **Django**
+* **Python**
+* **HTML, CSS**
+* **SQLITE3**
+* **Django's Testing Framework**
+* **Git**
+* **Github**
+* **Virtual Environment**
+* **Markdown**
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -126,3 +126,10 @@ Before you begin, make sure you have the following prerequisites installed on yo
 #### Installation
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to store the project:
+```bash
+cd your-preferred-directory
+```
+3. Clone the project repository from GitHub:
+```sh
+git clone https://github.com/Oluwatemmy/Yetti-Assessment.git
+```
