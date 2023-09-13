@@ -126,10 +126,44 @@ Before you begin, make sure you have the following prerequisites installed on yo
 #### Installation
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to store the project:
-```bash
-cd your-preferred-directory
-```
+    ```sh
+    cd your-preferred-directory
+    ```
 3. Clone the project repository from GitHub:
-```sh
-git clone https://github.com/Oluwatemmy/Yetti-Assessment.git
-```
+    ```sh
+    git clone https://github.com/Oluwatemmy/Yetti-Assessment.git
+    ```
+4. Set Up a Virtual Environment (Optional but Recommended)
+    ```sh
+    python -m venv <your-venv-name>
+    ```
+5. Activate the virtual environment:
+    * On Windows:
+      ```sh
+      venv\Scripts\activate
+      ```
+    * On macOS and Linux:
+      ```sh
+      source venv/bin/activate
+      ```
+6. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+7. Database Setup
+    ```sh
+    python manage.py migrate
+    ```
+8. Run the Development Server
+    ```sh
+    python manage.py runserver
+    ```
+9. Visit http://localhost:8000 in your browser
+
+10. Running Tests
+    To run the tests for the project, you can use the following command:
+    ```sh
+    python manage.py test
+    ```
+
+    This command will execute all the tests in the project, including authentication and security tests.
